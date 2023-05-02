@@ -80,6 +80,10 @@ body {
   }
 }
 
+.new {
+  margin-bottom: 50px;
+}
+
 .new__title {
   font-size: 32px;
   font-weight: 400;
@@ -88,6 +92,162 @@ body {
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+.promo__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+.promo__container {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+@media (min-width: 1000px) {
+  .promo__container {
+    margin-right: 190px;
+    margin-left: 190px;
+  }
+}
+
+.promo__footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.promo__promocode {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px dashed #131316;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.promo__button {
+  padding-top: 19px;
+  padding-bottom: 20px;
+}
+
+.sale {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  padding-bottom: 35px;
+}
+
+.sale__starship {
+  display: flex;
+  gap: 10px;
+}
+
+.sale__info {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.sale__rate {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  width: 172px;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+.sale__star {
+  display: inline-block;
+  width: 28px;
+  height: 100%;
+  text-align: center;
+  background-image: url("../../img/spaceship-rating.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.sale__star--disabled {
+  opacity: 0.1;
+}
+
+.sale__title {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.sale__description {
+  font-size: 13px;
+  line-height: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sale__prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 55px;
+}
+
+.sale__price--old {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #D9D9D9;
+}
+.sale__price--current {
+  font-weight: 700;
+}
+
+.sale__discount {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #FF0000;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  padding-left: 11px;
+}
+
+.sale__discount-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 55px;
+  font-size: 13px;
+  line-height: 17px;
+  gap: 14px;
+}
+
+.sale__amount-discount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.sale__amount {
+  margin: 0;
+}
+.sale__amount--total {
+  font-weight: 700;
+  color: #FF0000;
 }
 
 .logo {
