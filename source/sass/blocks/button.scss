@@ -1,0 +1,16 @@
+.button {
+  @include segoe-ui;
+  display: block;
+  box-sizing: border-box;
+  background: $blue-gradient;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: $white;
+  padding-top: 9px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  border-radius: 4px;
+}
