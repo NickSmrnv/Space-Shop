@@ -1,0 +1,20 @@
+// Файл с часто используемыми элементами
+
+@import "./global/fonts.scss"; // шрифты
+@import "./global/base.scss"; // глобальные стили
+@import "./global/mixins.scss"; // миксины
+@import "./global/variables.scss"; // переменные
+
+// Подключение стилей блоков
+
+@import "./blocks/main-header.scss";
+@import "./blocks/button.scss";
+@import "./blocks/new.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/sale.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/social.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/visually-hidden.scss";
