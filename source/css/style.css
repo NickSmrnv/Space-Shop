@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/SegoeUI.woff") format("woff");
+  src: url("../../fonts/SegoeUI.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/SegoeUIBold.woff") format("woff");
+  src: url("../../fonts/SegoeUIBold.woff2") format("woff2");
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #131316;
+  background-color: #131316;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
