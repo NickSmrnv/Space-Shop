@@ -25,3 +25,13 @@
   position: absolute;
   content: "";
 }
+
+@mixin wrapper-margin {
+  margin-right: 50px;
+  margin-left: 50px;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 190px;
+    margin-left: 190px;
+  }
+}
