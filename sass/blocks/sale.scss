@@ -1,0 +1,108 @@
+.sale {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  padding-bottom: 35px;
+}
+
+.sale__starship {
+  display: flex;
+  gap: 10px;
+}
+
+.sale__info {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.sale__rate {
+  @include list-reset;
+  display: flex;
+  gap: 8px;
+  width: 172px;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+.sale__star {
+  display: inline-block;
+  width: 28px;
+  height: 100%;
+  text-align: center;
+  background-image: url('../../img/spaceship-rating.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &--disabled {
+    opacity: 0.1;
+  }
+}
+
+.sale__title {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.sale__description {
+  font-size: 13px;
+  line-height: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sale__prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 55px;
+}
+
+.sale__price {
+  &--old {
+    text-decoration-line: line-through;
+    color: $gray;
+  }
+
+  &--current {
+    font-weight: 700;
+  }
+}
+
+.sale__discount {
+  font-weight: 700;
+  color: $white;
+  background-color: $red;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  padding-left: 11px;
+}
+
+.sale__discount-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 55px;
+  font-size: 13px;
+  line-height: 17px;
+  gap: 14px;
+}
+
+.sale__amount-discount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.sale__amount {
+  margin: 0;
+
+  &--total {
+    font-weight: 700;
+    color: $red;
+  }
+}

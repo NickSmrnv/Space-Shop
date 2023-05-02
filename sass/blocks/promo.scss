@@ -1,0 +1,41 @@
+.promo__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+.promo__container {
+  @include wrapper-margin;
+}
+
+.promo__footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.promo__promocode {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px dashed $main-color;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.promo__button {
+  padding-top: 19px;
+  padding-bottom: 20px;
+}
