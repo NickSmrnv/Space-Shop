@@ -8,6 +8,16 @@
   &--big {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media (max-width: $mobile-width) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.cards__img {
+  object-fit: cover;
 }
 
 .cards__item {
