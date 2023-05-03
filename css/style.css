@@ -132,6 +132,12 @@ body {
   flex-direction: column;
   margin-right: 170px;
   margin-left: 170px;
+  min-width: 150px;
+}
+@media (max-width: 720px) {
+  .promo__footer {
+    margin: 0 auto;
+  }
 }
 
 .promo__promocode {
@@ -158,15 +164,33 @@ body {
   border-radius: 4px;
   padding-bottom: 35px;
 }
+@media (max-width: 720px) {
+  .sale {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
 
 .sale__starship {
   display: flex;
   gap: 10px;
 }
+@media (max-width: 720px) {
+  .sale__starship {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
 
 .sale__info {
   margin-top: 30px;
   margin-right: 10px;
+}
+@media (max-width: 720px) {
+  .sale__info {
+    margin-top: 0;
+  }
 }
 
 .sale__rate {
@@ -207,6 +231,11 @@ body {
   margin-right: 55px;
   margin-bottom: 20px;
 }
+@media (max-width: 720px) {
+  .sale__description {
+    margin-right: 0;
+  }
+}
 
 .sale__prices {
   display: flex;
@@ -215,6 +244,11 @@ body {
   align-items: center;
   margin-bottom: 20px;
   margin-right: 55px;
+}
+@media (max-width: 720px) {
+  .sale__prices {
+    margin-right: 0;
+  }
 }
 
 .sale__price--old {
@@ -246,6 +280,11 @@ body {
   font-size: 13px;
   line-height: 17px;
   gap: 14px;
+}
+@media (max-width: 720px) {
+  .sale__discount-block {
+    margin-right: 0;
+  }
 }
 
 .sale__amount-discount {
@@ -364,6 +403,17 @@ body {
 }
 .cards__list--big {
   grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 720px) {
+  .cards__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.cards__img {
+  object-fit: cover;
 }
 
 .cards__item {

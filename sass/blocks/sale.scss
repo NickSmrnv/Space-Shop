@@ -2,16 +2,31 @@
   background-color: rgba(255, 255, 255, 0.95);
   border-radius: 4px;
   padding-bottom: 35px;
+
+  @media (max-width: $mobile-width) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 .sale__starship {
   display: flex;
   gap: 10px;
+
+  @media (max-width: $mobile-width) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 }
 
 .sale__info {
   margin-top: 30px;
   margin-right: 10px;
+
+  @media (max-width: $mobile-width) {
+    margin-top: 0;
+  }
 }
 
 .sale__rate {
@@ -50,6 +65,10 @@
   display: block;
   margin-right: 55px;
   margin-bottom: 20px;
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+  }
 }
 
 .sale__prices {
@@ -59,6 +78,10 @@
   align-items: center;
   margin-bottom: 20px;
   margin-right: 55px;
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+  }
 }
 
 .sale__price {
@@ -92,6 +115,10 @@
   font-size: 13px;
   line-height: 17px;
   gap: 14px;
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+  }
 }
 
 .sale__amount-discount {
