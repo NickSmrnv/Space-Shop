@@ -1,0 +1,21 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.contacts__telephone {
+  color: $white;
+  text-decoration: none;
+}
+
+.contacts__email {
+  color: $white;
+}
