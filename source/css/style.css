@@ -68,6 +68,12 @@ body {
   padding-left: 12px;
   border-radius: 4px;
 }
+.button:hover {
+  opacity: 0.7;
+}
+.button:active {
+  opacity: 0.5;
+}
 
 .new__container {
   margin-right: 50px;
@@ -259,6 +265,12 @@ body {
 .logo {
   display: flex;
 }
+.logo:hover {
+  opacity: 0.7;
+}
+.logo:active {
+  opacity: 0.5;
+}
 
 .footer {
   margin-right: 50px;
@@ -305,9 +317,21 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+.contacts__telephone:hover {
+  opacity: 0.7;
+}
+.contacts__telephone:active {
+  opacity: 0.5;
+}
 
 .contacts__email {
   color: #ffffff;
+}
+.contacts__email:hover {
+  opacity: 0.7;
+}
+.contacts__email:active {
+  opacity: 0.5;
 }
 
 .social__list {
@@ -321,6 +345,12 @@ body {
 
 .social__link {
   display: flex;
+}
+.social__link:hover {
+  opacity: 0.7;
+}
+.social__link:active {
+  opacity: 0.5;
 }
 
 .cards__list {
